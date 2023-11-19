@@ -1,0 +1,29 @@
+table,tr{
+    width: 100%;
+    border-collapse: collapse;
+    margin-top: 3%;
+
+    
+    
+}
+
+tr{
+    height: 10px;
+    /* color: blue; */
+    /* background-color: green; */
+    height: 60px;
+    font-family: 'Courier New', Courier, monospace;
+    
+}
+
+td{
+    border-top: 1px solid black;
+    border-bottom: 1px solid black;
+    border-collapse: collapse;
+    cursor: pointer;
+}
+
+.result{
+    font-size: 10px;
+    font-weight: lighter;
+}

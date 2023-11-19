@@ -1,0 +1,12 @@
+.feature_house{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 153, 81);    
+    height: 40px;
+    margin-top: 0.7%;
+}
+.Featured-House{
+    background-color: coral;
+    text-align: center;
+}

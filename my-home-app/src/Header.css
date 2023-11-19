@@ -1,0 +1,55 @@
+.logo img{
+    width: 38%;
+    margin-left: 20%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: ;
+
+}
+.container{
+    /* background-color: red; */
+    display: flex;
+    height: 30%;
+    width:100%;
+
+}
+
+.Header-words{
+    /* background-color: green; */
+    width: 60%;
+    display: flex;
+    align-items: center;
+    justify-content: left;
+    font-size: 0.6rem;
+    margin-right: 15%;
+
+}
+.Header-words h1{
+    color: coral;
+
+}
+
+.Header-Buttom{
+    height: 5%;
+    font-size: 0.7rem;
+
+}
+.search-input{
+    /* background-color: red; */
+    width: 70%;
+    margin: auto;
+    display: flex;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.search-input select{
+    width: 30%;
+    height: 40px;
+    font-size: 18px;
+    margin-left: 3%;
+    border-radius: 0.5rem;
+
+}
+

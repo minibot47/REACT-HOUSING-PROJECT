@@ -1,0 +1,54 @@
+.images{
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bolder;
+}
+.picture{
+    grid-column: 1;
+    /* background-image: url(/public/images/277667.jpeg) ; */
+    height: 400px;
+    background-size: cover;
+    background-repeat: no-repeat;
+    margin-bottom: 2%;
+}
+
+.images{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+}
+.description{
+    grid-column: 2;
+    display: block;
+    padding-left: 5%;    
+
+    
+}
+.price-info{
+    font-weight: 10px;
+    font-size: 20px;
+}
+.price{
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 5%;
+    color: coral;
+}
+#icon img{
+    width: 7%;
+    
+}
+form{
+    display: flex;
+    flex-direction: column;
+}
+
+form input{
+    width: 50%;
+    height: 10%;
+}
+button{
+    margin-top: 1%;
+    width: 70px;
+    height: 25px;
+    color: white;
+    background-color: skyblue;
+}
