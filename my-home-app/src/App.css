@@ -5,3 +5,31 @@ body{
   background-color: rgb(255, 255, 255);
   height: auto;
 }
+@media screen and (max-width: 620px) {
+  .description{
+    display: block;
+    font-size: 8px;
+    
+  }
+  img{
+    overflow: hidden;
+    width: 170px;
+
+  }
+  .picture {
+    overflow: hidden;
+    width: 170px;
+    height: 80px;
+
+  }
+  .search-input{
+    font-size: 8px;
+  }
+  .search-input select{
+    padding-left: 100px;
+    padding-right: 30px;
+  }
+  .images{
+    display:none;
+  }
+}

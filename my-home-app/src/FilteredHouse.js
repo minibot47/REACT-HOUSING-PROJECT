@@ -15,11 +15,7 @@ const FilteredHouse = ({ allhouses }) => {
     console.log(houseId);
     return (
         <>
-                <House house={filteredHouse} />
-                <h1> this is filtered house</h1>
-
-                
-        
+                <House house={filteredHouse} />    
         </>
         
         
